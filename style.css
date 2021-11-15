@@ -44,4 +44,18 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #11851C;
+}
+
+.Fawfulges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Fawfulges img {
+  width: 15%;
+  height: 80%;
+  border-style: solid;
+  border-color: black;
 }
