@@ -22,11 +22,6 @@ h3 {
   font-family: Arimo;
 }
 
-h2 {
-  font-family: Arimo;
-
-}
-
 a {
     font-family: Arimo;
     font-size: 25px;
@@ -48,14 +43,30 @@ body {
 }
 
 .Fawfulges {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 .Fawfulges img {
   width: 15%;
-  height: 80%;
+  height: 100%;
+  margin: 10px;
   border-style: solid;
   border-color: black;
+}
+
+.FormLinks {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: flex-start;
+}
+
+.FormLinks a{
+  padding: 10px;
+  font-family: Arimo;
+  font-size: 25px;
+  line-height: 28px;
 }
