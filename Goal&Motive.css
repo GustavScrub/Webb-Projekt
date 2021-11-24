@@ -19,11 +19,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
+}
 
 h1 {
     text-align: center;
     background-color: #6BC46A;
     font-size: 30px;
     font-family: Arimo;
-  }
+}
+
+  .motivePic img {
+    width: 15%;
+    height: 100%;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+}

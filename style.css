@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-html{
+html {
   height: 100vh;
 }
 
@@ -23,10 +23,10 @@ h3 {
 }
 
 a {
-    font-family: Arimo;
-    font-size: 25px;
-    line-height: 49px;
-    text-decoration: none;
+  font-family: Arimo;
+  font-size: 25px;
+  line-height: 49px;
+  text-decoration: none;
 }
 
 h5 {
@@ -40,17 +40,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #11851C;
+  background-color: #11851c;
 }
 
-.Fawfulges {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
+.Fawfulges1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
-.Fawfulges img {
+.Fawfulges1 img {
   width: 15%;
   height: 100%;
   margin: 10px;
@@ -58,14 +58,47 @@ body {
   border-color: black;
 }
 
-.FormLinks {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-align-items: flex-start;
+.Fawfulges2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
-.FormLinks a{
+.Fawfulges2 img {
+  margin-left: 400px;
+  width: 15%;
+  height: 100%;
+  margin: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.FormLinks1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.FormLinks1 a {
+  margin-right: 480px;
+  padding: 10px;
+  font-family: Arimo;
+  font-size: 25px;
+  line-height: 28px;
+}
+
+.FormLinks2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.FormLinks2 a {
+  margin-left: 480px;
+  margin-bottom: 5;
   padding: 10px;
   font-family: Arimo;
   font-size: 25px;
