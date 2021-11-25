@@ -29,7 +29,7 @@ h1 {
 
 .boxNormal {
       height: 22%;
-      width: 50%;
+      width: 60%;
       background-color: #059603;
       color: white;
       margin: 10px;
@@ -48,10 +48,17 @@ h1 {
 .TechText {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .TechText h2 {
-  margin-right: 90px;
+  margin: 25px;
+  margin-right: 60px;
+  text-align: center;
+}
+
+.TechText h3 {
+  font-size: 25px;
+  margin-left: 57vw;
   text-align: center;
 }
