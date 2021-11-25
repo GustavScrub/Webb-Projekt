@@ -43,7 +43,7 @@ h1 {
 }
 
 .boxGM {
-  height: 20%;
+  height: 32%;
   width: 50%;
   background-color: #059603;
   color: white;
@@ -51,4 +51,16 @@ h1 {
   border-style: solid;
   border-color: black;
   font-family: Roboto;
+}
+
+.PicText {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.PicText h2 {
+  margin: 5%;
+  margin-right: 6%;
+  text-align: center;
 }
