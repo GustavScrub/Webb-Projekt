@@ -1,48 +1,55 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-
-a {
-    font-family: Arimo;
-    font-size: 25px;
-    line-height: 49px;
-    padding: 10px;
-    margin: 10px;
-    text-decoration: none;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
+.goal {
+  display: flex;
+  align-items: flex-start;
+}
+
+.goal a {
+  font-family: Arimo;
+  font-size: 25px;
+  line-height: 49px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 30%;
+  text-decoration: none;
+}
+
 body {
-    height: 100vh;
-    background-color: #6BC46A;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  height: 100vh;
+  background-color: #6bc46a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 h1 {
-    text-align: center;
-    background-color: #1F6506;
-    font-size: 30px;
-    font-family: Arimo;
-  }
+  text-align: center;
+  background-color: #1f6506;
+  font-size: 30px;
+  font-family: Arimo;
+}
 
 .boxNormal {
-      height: 22%;
-      width: 60%;
-      background-color: #059603;
-      color: white;
-      margin: 10px;
-      border-style: solid;
-      border-color: black;
+  height: 22%;
+  width: 60%;
+  background-color: #059603;
+  color: white;
+  margin: 10px;
+  border-style: solid;
+  border-color: black;
 }
 
 .normalPic img {
-    width: 15%;
-    height: 100%;
-    margin: 10px;
-    border-style: solid;
-    border-color: black;
+  width: 15%;
+  height: 100%;
+  margin: 10px;
+  border-style: solid;
+  border-color: black;
 }
 
 .TechText {

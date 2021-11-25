@@ -1,39 +1,45 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
-  a {
-    font-family: Arimo;
-    font-size: 25px;
-    line-height: 49px;
-    padding: 10px;
-    margin: 10px;
-    text-decoration: none;
+.goal {
+  display: flex;
+  align-items: flex-start;
+}
+
+.goal a {
+  font-family: Arimo;
+  font-size: 25px;
+  line-height: 49px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 30%;
+  text-decoration: none;
 }
 
 body {
-    height: 100vh;
-    background-color: #11851C;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 100vh;
+  background-color: #11851c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1 {
-    text-align: center;
-    background-color: #6BC46A;
-    font-size: 30px;
-    font-family: Arimo;
+  text-align: center;
+  background-color: #6bc46a;
+  font-size: 30px;
+  font-family: Arimo;
 }
 
-  .motivePic img {
-    width: 15%;
-    height: 100%;
-    margin: 10px;
-    border-style: solid;
-    border-color: black;
+.motivePic img {
+  width: 15%;
+  height: 100%;
+  margin: 10px;
+  border-style: solid;
+  border-color: black;
 }
 
 .boxGM {
