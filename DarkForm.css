@@ -17,6 +17,9 @@
   margin: 10px;
   margin-left: 30%;
   text-decoration: none;
+  border-color: black;
+  border-style: solid;
+  background-color: #6bc46a;
 }
 
 body {

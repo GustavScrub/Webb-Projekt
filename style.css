@@ -20,9 +20,9 @@ h3 {
   margin: 50px;
   font-size: 25px;
   font-family: Arimo;
+  background-color: #6bc46a;
   border-color: black;
   border-style: solid;
-  background-color: #6bc46a;
   width: 40vw;
 }
 
@@ -90,11 +90,13 @@ body {
 }
 
 .FormLinks1 a {
-  margin-right: 480px;
   padding: 10px;
   font-family: Arimo;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 28px;
+  border-color: black;
+  border-style: solid;
+  background-color: #6bc46a;
 }
 
 .FormLinks2 {
@@ -105,10 +107,12 @@ body {
 }
 
 .FormLinks2 a {
-  margin-left: 480px;
   margin-bottom: 5;
   padding: 10px;
   font-family: Arimo;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 28px;
+  border-color: black;
+  border-style: solid;
+  background-color: #6bc46a;
 }
