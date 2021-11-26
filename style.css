@@ -20,6 +20,10 @@ h3 {
   margin: 50px;
   font-size: 25px;
   font-family: Arimo;
+  border-color: black;
+  border-style: solid;
+  background-color: #6bc46a;
+  width: 40vw;
 }
 
 a {
@@ -31,6 +35,10 @@ a {
 
 h6 {
   font-size: 13px;
+  background-color: #6bc46a;
+  border-style: solid;
+  border-color: black;
+  width: 19vw;
 }
 
 h5 {
