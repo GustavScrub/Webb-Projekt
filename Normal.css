@@ -69,3 +69,11 @@ h1 {
   margin-left: 57vw;
   text-align: center;
 }
+
+h6 {
+  font-size: 13px;
+  background-color: #6bc46a;
+  border-style: solid;
+  border-color: black;
+  width: 19vw;
+}
